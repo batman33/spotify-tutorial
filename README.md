@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify tutorial
+
+This is the spotify app developed by [tutorial](https://www.youtube.com/watch?v=2aeMRB8LL4o&ab_channel=CodeWithAntonio).
+
+## Used library
+
+- Next 13.4
+- React
+- Stripe
+- Supabase
+- PostgreSQL
+- Tailwind
 
 ## Getting Started
 
-First, run the development server:
+### Configure app:
+
+Rename the file `example.env`to `.env`
+
+```
+# Got from https://supabase.com/
+NEXT_PUBLIC_SUPABASE_URL={NEXT_PUBLIC_SUPABASE_URL}
+NEXT_PUBLIC_SUPABASE_ANON_KEY={NEXT_PUBLIC_SUPABASE_ANON_KEY}
+SUPABASE_SERVICE_ROLE_KEY={SUPABASE_SERVICE_ROLE_KEY}
+
+# Got from https://stripe.com/
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+```
+
+### Run the development server:
 
 ```bash
 npm run dev
@@ -14,21 +41,16 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about libraries, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Learn React.js](https://react.dev/learn) - an interactive react.js tutorial.
+- [Tailwind Documentation](https://tailwindcss.com/docs/installation) - learn about tailwindcss features and API.
+- [Stripe Documentation](https://stripe.com/docs) - learn about Stripe features and API.
+- [Supabase Documentation](https://supabase.com/docs) - learn about Supabase 
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/) - learn about PostgreSQL features and API.features and API.
