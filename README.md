@@ -50,7 +50,7 @@ To learn more about libraries, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Learn React.js](https://react.dev/learn) - an interactive react.js tutorial.
-- [Tailwind Documentation](https://tailwindcss.com/docs/installation) - learn about tailwindcss features and API.
+- [Tailwind Documentation](https://tailwindcss.com/docs/installation) - learn about Tailwind features and API.
 - [Stripe Documentation](https://stripe.com/docs) - learn about Stripe features and API.
-- [Supabase Documentation](https://supabase.com/docs) - learn about Supabase 
+- [Supabase Documentation](https://supabase.com/docs) - learn about Supabase features and API.
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/) - learn about PostgreSQL features and API.features and API.
